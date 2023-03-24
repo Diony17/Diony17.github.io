@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href="https://scholar.google.co.kr/citations?user=FH8S2ewAAAAJ;hl=en">Google Scholar</a> | <a href="/assets/pdf/Jiwon_Kim-CV_2022.pdf">CV</a>
+
 
 profile:
   align: right
