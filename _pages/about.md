@@ -16,7 +16,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Hello, this is Jiwon Kim. Welcome to my website.
+Hello, this is Jiwon Kim. Welcome to my website :smile:
 
 I am a Ph.D. student in Computer Science at Yonsei University, Seoul, South Korea. Also, I am a member of the [Mobile Embedded Systems Lab.](https://mobed.yonsei.ac.kr) supervised by Prof. Hojung Cha.
 

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-My new personal website is released! :smile:
+My new personal website is released!
