@@ -7,33 +7,31 @@
 @article{Modrone,
   abbr={DAC},
   title={Voltage prediction of drone battery reflecting internal temperature},
-  author={Jiwon Kim, Seunghyeok Jeon, Jaehyun Kim, and Hojung Cha},
+  author={Jiwon Kim and Seunghyeok Jeon and Jaehyun Kim and Hojung Cha},
   abstract={Drones are commonly used in mission-critical applications, and the accurate estimation of available battery capacity before flight is critical for reliable and efficient mission planning. To this end, the battery voltage should be predicted accurately prior to launching a drone. However, in drone applications, a rise in the battery's internal temperature changes the voltage significantly and leads to challenges in voltage prediction. In this paper, we propose a battery voltage prediction method that takes into account the battery's internal temperature to accurately estimate the available capacity of the drone battery. To this end, we devise a temporal temperature factor (TTF) metric that is calculated by accumulating time series data about the battery's discharge history. We employ a machine learning-based prediction model, reflecting the TTF metric, to achieve high prediction accuracy and low complexity. We validated the accuracy and complexity of our model with extensive evaluation. The results show that the proposed model is accurate with less than 1.5% error and readily operates on resource-constrained embedded devices.},
   journal={Proceedings of the 59th ACM/IEEE Design Automation Conference (DAC)},
   year={2022},
   publisher={ACM},
   doi={10.1145/3489517.3530448},
-  pdf={https://dl.acm.org/doi/abs/10.1145/3489517.3530448},
-  dimensions={true}
+  pdf={https://dl.acm.org/doi/abs/10.1145/3489517.3530448}
 }
 
 @article{Optrone,
   abbr={EMSOFT},
   title={Optrone: Maximizing Performance and Energy Resources of Drone Batteries},
-  author={Jiwon Kim, Yonghun Choi, Seunghyeok Jeon, Jaeyun Kang, and Hojung Cha},
+  author={Jiwon Kim and Yonghun Choi and Seunghyeok Jeon and Jaeyun Kang and Hojung Cha},
   abstract={The optimal use of batteries in drones is a critical issue for achieving both reliable operation and maximum flight time. The key is to acquire accurate information about the state-of-charge (SoC) of the battery in runtime. Drones typically employ series-connected lithium-ion polymer (Li-Po) battery cells, whose SoC is affected by many environmental factors as well as flight patterns. In this paper, we propose a scheme, called Optrone, which maximizes the flight time of a drone while safely using the battery. Understanding the implications of the factors affecting the SoC of the drone’s battery pack, we propose a three-level SoC, which is a metric for representing the SoC of a battery in runtime. We also provide various operating policies to users to improve the safety and efficiency of operating the drone. We implemented the prototype hardware and software for Optrone, and validated its operation in controlled and real environments. The experimental results in a controlled environment showed that the proposed three-level SoC poses less than 3% error and the operating policies achieved a flight time gain of 19.4%, while guaranteeing battery safety. We also observed a flight time gain of about 10% in real outdoor experiments, where the user rightly adheres to the advised Optrone policy.},
   journal={The ACM SIGBED International Conference on Embedded Software (EMSOFT)},
   year={2020},
   publisher={IEEE},
   doi={10.1109/TCAD.2020.3012790},
-  pdf={https://ieeexplore.ieee.org/document/9211406},
-  dimensions={true}
+  pdf={https://ieeexplore.ieee.org/document/9211406}
 }
 
 @article{Hydrone,
   abbr={CODES+ISSS},
   title={Hydrone: Reconfigurable energy storage for UAV applications},
-  author={Jiwon Kim, Sungwoo Baek, Yonghun Choi, Junick Ahn, and Hojung Cha},
+  author={Jiwon Kim and Sungwoo Baek and Yonghun Choi and Junick Ahn and Hojung Cha},
   abstract={Unmanned aerial vehicles (UAVs) are often used in mission-critical applications, requiring a critical criterion in flight time. Unfortunately, severe power fluctuations, caused by specific flight patterns, degrade the deliverable capacity of the battery and hamper the flight time. A common approach to mitigating power fluctuations is to employ a hybrid energy storage system using a Li-ion battery with an ultracapacitor (UC). However, the conventional scheme poses inherent problems of low-energy density and power leakage due to the use of the UC and the supplementary hardware required for hybrid storage. In this article, we propose Hydrone, a reconfigurable battery architecture that maximizes the flight time of UAVs, overcoming the previous limitations. Hydrone addresses two key challenges that arise when hybrid energy storage is utilized in UAVs: 1) capacity loss and 2) power leakage. First, the proposed scheme compromises the capacity loss of hybrid storage by using a minimal capacity UC for use as a buffer to counteract the power fluctuations. Second, the power leakage of the hybrid battery is minimized by draining power from the UC only when it is necessary. To this end, the Hydrone architecture provides reconfigurability in hardware and offers two modes of battery operation, i.e., a battery-only mode and a hybrid mode. An appropriate operation is then selected at runtime depending on the flight situation and battery status. To switch modes, we employed a reinforcement learning-based switch control, reflecting the power fluctuation adequately on the flight and battery states. We implemented a hardware prototype to demonstrate the efficiency of Hydrone. Our extensive evaluation shows that the flight time of a UAV is prolonged up to 39% in our experiment setup.},
   journal={The International Conference on Hardware/Software Codesign and System Synthesis (CODES+ISSS)},
   year={2020},
@@ -45,12 +43,47 @@
 @article{SRbattery,
   abbr={EMSOFT},
   title={Optimizing discharge efficiency of reconfigurable battery with deep reinforcement learning},
-  author={Seunghyeok Jeon, Jiwon Kim, Junick Ahn, and Hojung Cha},
+  author={Seunghyeok Jeon and Jiwon Kim and Junick Ahn and Hojung Cha},
   abstract={Cell imbalance in a multicell battery occurs over time due to varying operating environments. This imbalance leads to overall inefficiency in battery discharging due to the relatively weak cells in the battery. Reconfiguring the cells in the battery is one option for addressing the problem, but relevant circuits may lead to severe safety issues. In this article, we aim to optimize the discharge efficiency of a multicell battery using safety-supplemented hardware. To this end, we first design a cell string-level reconfiguration scheme that is safe in hardware operations and also provides scalability due to the low switching complexity. Second, we propose a machine learning-based run-time switch control that considers various battery-related factors, such as the state of charge, state of health, temperature, and current distributions. Specifically, by exploiting the deep reinforcement learning (DRL) technique, we train the complex relationship among the battery factors and derive the best switch configuration in run-time. We implemented a hardware prototype, validated its functionalities, and evaluated the efficacy of the DRL-based control policy. The experimental results showed that the proposed scheme, along with the optimization method, improves the discharge efficiency of multicell batteries. In particular, the discharge efficiency gain is maximized when the cells constituting the battery are unevenly distributed in terms of cell health and exposed temperature.},
   journal={The ACM SIGBED International Conference on Embedded Software (EMSOFT)},
   year={2020},
   publisher={IEEE},
   doi={10.1109/TCAD.2020.3012230},
-  pdf={https://ieeexplore.ieee.org/abstract/document/9211558},
-  dimensions={true}
+  pdf={https://ieeexplore.ieee.org/abstract/document/9211558}
+}
+
+@article{DynLiB,
+  abbr={EMSOFT},
+  title={DynLiB: Maximizing Energy Availability of Hybrid Li-Ion Battery Systems},
+  author={Jiwon Kim and Sungwoo Baek and Seunghyeok Jeon and Hojung Cha},
+  abstract={Battery-powered devices commonly use Li-ion batteries due to their high energy density. Unfortunately, low ambient temperature and high discharge current significantly affect the available capacity of Li-ion batteries at runtime. One solution to handle this issue is to construct a hybrid energy storage (HES) system, taking advantage of the different performance characteristics of various Li-ion batteries. Conventional HES techniques often configure systems without considering the hardware overhead and capacity loss of batteries. Moreover, dynamic energy management in HES was not considered adequately due to severe power leakage. In this article, we propose DynLiB, a reconfigurable HES architecture that provides high energy availability in various runtime environments. DynLiB constructs HES with only two types of batteries, the main battery and the auxiliary battery, to reduce the operational cost of the hardware. The capacity of each battery is determined based on the application profile that characterizes the runtime factors. DynLiB supports energy transfer between batteries so that the available energy is maximized by dynamically transferring energy between the batteries, depending on the runtime environment. We implemented a prototype system to validate the efficacy of DynLiB. The experimental results showed that DynLiB achieved an average energy gain of 27.2% compared to a single-type battery system in various runtime environments.},
+  journal={The ACM SIGBED International Conference on Embedded Software (EMSOFT)},
+  year={2022},
+  publisher={IEEE},
+  doi={10.1109/TCAD.2022.3197526},
+  pdf={https://ieeexplore.ieee.org/abstract/document/9852758}
+}
+
+@article{PVoT,
+  abbr={CODES+ISSS},
+  title={PVoT: Reconfigurable Photovoltaic Array for Indoor Light Energy-Powered Batteryless Devices},
+  author={Jiwon Kim and Eunyeong Kim and Seunghyeok Jeon and Junick Ahn and Hyungchol Jun and Hojung Cha},
+  abstract={Multiple photovoltaic (PV) modules are often used to provide enhanced harvesting capability for light energy-based Internet of Things (IoT) devices. PV modules facing multiple directions can lead to a situational energy loss when parts of the modules are shaded. To address this issue, existing solutions exploit reconfigurable PV arrays to acquire the optimal configuration in a given situation. However, conventional techniques are not energy efficient in estimating the harvesting capability of PV modules, and require high computation to find the optimal PV array at runtime. In this article, we propose PVoT, an energy-efficient reconfigurable PV array, which maximizes the harvesting energy for indoor IoT devices. To this end, we propose the use of photoresistors to estimate the harvesting capability with minimal energy overhead. We also provide hardware and software schemes, which perform event-driven light change detection in an energy-efficient way. Furthermore, we develop a power imbalance threshold metric to quickly find the optimal PV array at runtime. We implemented a prototype PVoT with off-the-shelf components and accompanying software. Experiments with the prototype hardware showed that PVoT achieves a gain of up to 23.9% in harvested energy compared to the existing directly connected PV array scheme.},
+  journal={The International Conference on Hardware/Software Codesign and System Synthesis (CODES+ISSS)},
+  year={2022},
+  publisher={IEEE},
+  doi={10.1109/TCAD.2022.3197505},
+  pdf={https://ieeexplore.ieee.org/abstract/document/9925695}
+}
+
+@article{DroneAnomaly,
+  abbr={PMC},
+  title={Detecting structural anomalies of quadcopter UAVs based on LSTM autoencoder},
+  author={Seunghyeok Jeon and Jaeyun Kang and Jiwon Kim and Hojung Cha},
+  abstract={Detecting a structural anomaly, such as a damaged propeller or motor, is crucial for mission-critical operation of unmanned aerial vehicles (UAVs). The existing solutions often fail to detect structural anomalies because the pre-defined parameters required for the solution are limited in reflecting the flight pattern or the external environment, such as wind conditions. In this paper, we propose a method for detecting structural anomalies in quadcopter UAVs, using only regular data and specifically considering flight patterns and runtime flight conditions. To this end, we employ a long short-term memory (LSTM) autoencoder model to learn complex features of regular flight data. While flying the UAV, the trained model estimates the degree of outlierness of the incoming data and assesses abnormal behavior of UAV by adaptively considering its movement. This way, the proposed method accurately detects structural anomalies in UAVs regardless of the runtime environment or flight mission. Our experiment results with an off-the-shelf UAV show that the proposed approach detects diverse structural anomalies by an average of 98.6% specificity and 90.3% sensitivity.},
+  journal={Pervasive and Mobile Computing (PMC)},
+  year={2023},
+  publisher={Elsevier},
+  doi={10.1016/j.pmcj.2022.101736},
+  pdf={https://www.sciencedirect.com/science/article/pii/S1574119222001493}
 }
