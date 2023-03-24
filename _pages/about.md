@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href="https://scholar.google.co.kr/citations?user=FH8S2ewAAAAJ;hl=en">Google Scholar</a> | <a href="/assets/pdf/Jiwon_Kim-CV_2022.pdf">CV</a>
+subtitle: <a href="https://scholar.google.co.kr/citations?user=FH8S2ewAAAAJ&hl=en">Google Scholar</a> | <a href="/assets/pdf/Jiwon_Kim-CV_2022.pdf">CV</a>
 
 
 profile:
@@ -22,4 +22,6 @@ I am a Ph.D. student in Computer Science at Yonsei University, Seoul, South Kore
 
 My research interests include battery management systems, on-device machine learning, and energy-aware mobile systems. I have published reseach papers in top-tier conferences including EMSOFT, CODES+ISSS, and DAC.
 
-If you'd like to contact me, please email me at [kim.j@yonsei.ac.kr](mailto:kim.j@yonsei.ac.kr). Thank you!
+If you'd like to contact me, please email me at [kim.j@yonsei.ac.kr](mailto:kim.j@yonsei.ac.kr). 
+
+Thank you!
