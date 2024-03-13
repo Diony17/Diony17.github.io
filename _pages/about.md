@@ -19,7 +19,7 @@ social: false  # includes social icons at the bottom of the page
 Greetings!  
 This is Jiwon Kim, and I'm excited to welcome you to my website :smile:
 
-I am currently pursuing a Ph.D. in Computer Science at Yonsei University in Seoul, South Korea. Also, I am a member of the [Mobile Embedded Systems Lab.](https://mobed.yonsei.ac.kr) supervised by Prof. Hojung Cha.
+I am currently a member of the [Mobile Embedded Systems Lab.](https://mobed.yonsei.ac.kr) supervised by Prof. Hojung Cha.
 
 My research interests focus on battery management systems, on-device machine learning, and energy-aware mobile systems. I'm proud to have published my work in top-tier conferences, such as EMSOFT, CODES+ISSS, and DAC.
 
