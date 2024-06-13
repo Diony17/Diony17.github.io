@@ -19,9 +19,8 @@ social: false  # includes social icons at the bottom of the page
 Greetings!  
 This is Jiwon Kim, and I'm excited to welcome you to my website :smile:
 
-I am currently a member of the [Networked Embedded Systems Lab.](https://www.uu.se/en/contact-and-organisation/organisation?query=X264%3A5) supervised by Prof. Thiemo Voigt.
-
-And, I am also co-work with [Mobile Embedded Systems Lab.](https://mobed.yonsei.ac.kr) supervised by Prof. Hojung Cha.
+I received my Ph.D. in Computer Science from Yonsei University in February 2024 ([Mobile Embedded Systems Lab.](https://mobed.yonsei.ac.kr) supervised by Prof. Hojung Cha).
+Currently, I am a member of the [Networked Embedded Systems Lab.](https://www.uu.se/en/contact-and-organisation/organisation?query=X264%3A5) supervised by Prof. Thiemo Voigt.
 
 My research interests focus on battery management systems, on-device machine learning, and energy-aware mobile systems. I'm proud to have published my work in top-tier conferences, such as EMSOFT, CODES+ISSS, and DAC.
 
