@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-The paper Panopticus has been conditionally accepted to MobiCom 2024!
+The paper "Panopticus: Omnidirectional 3D Object Detection on Resource-constrained Edge Devices" has been accepted to MobiCom 2024!
