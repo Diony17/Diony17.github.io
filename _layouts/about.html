@@ -23,8 +23,8 @@ layout: default
                 {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
               {% endif %}
 
-              {% include figure.html 
-              path=profile_image_path 
+              {% include figure.html
+              path=profile_image_path
               class=profile_image_class
               alt=page.profile.image -%}
             {% endif -%}
@@ -42,7 +42,8 @@ layout: default
 
           <!-- News -->
           {% if page.news -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2>
+            <!-- <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2>-->
+            <h2 style="color: inherit;">News</h2>
             {%- include news.html %}
           {%- endif %}
 
