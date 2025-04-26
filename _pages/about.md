@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href="https://scholar.google.com/citations?user=Ho4DkOIAAAAJ&hl=en">Google Scholar</a> | <a href="https://www.linkedin.com/in/jiwon-kim-40a4971b1/">LinkedIn</a> | <a href="/assets/pdf/Jiwon_Kim-CV_2024.pdf">CV</a>
+subtitle: <a href="https://scholar.google.com/citations?user=Ho4DkOIAAAAJ&hl=en">Google Scholar</a> | <a href="https://www.linkedin.com/in/jiwon-kim-40a4971b1/">LinkedIn</a> | <a href="/assets/pdf/Jiwon_Kim-CV_2025.pdf">CV</a>
 
 
 profile:
