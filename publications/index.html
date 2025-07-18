@@ -112,7 +112,8 @@
             <!-- _pages/publications.md -->
 <div class="publications">
   <h2 class="year">2025</h2>
-  <ol class="bibliography"><li>
+  <ol class="bibliography">
+<li>
 <!-- _layouts/bib.html -->
       <div class="row">
         <div class="col-sm-2 abbr"><abbr class="badge">MobiSys</abbr></div>
@@ -146,7 +147,7 @@
         
 
         <!----><div class="periodical">
-          <!-- REPLACE -->
+          <!-- REPLACE to disappear year for inproceedings -->
           <em>In Proceedings of the 23rd Annual International Conference on Mobile Systems, Applications and Services (MobiSys 2025)</em>
         </div>
         <div class="periodical">
@@ -173,7 +174,126 @@
           </div>
         </div>
       </div>
-</li></ol>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">EMSOFT</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="SecureRide" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">SecureRide: Detecting Safety-threatening Behavior of E-Scooters Using Battery Information</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <em>Jiwon Kim*</em>, Geon Kim*, Jeho Lee, and
+          <span class="more-authors" title="click to view 2 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '2 more authors' ? 'Thiemo Voigt, Hojung Cha' : '2 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">2 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        
+
+        <!----><div class="periodical">
+          <!-- REPLACE to disappear year for inproceedings -->
+          <em>In The ACM SIGBED International Conference on Embedded Software (EMSOFT 2025)</em>
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+          
+          
+
+          </div>
+          
+          <div class="badges">
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Reckless usage of electric (e-) scooters causes many injury accidents, raising critical safety concerns. Despite newly introduced regulations, specifically, speed limits and sidewalk driving prohibitions, the number of accidents increases due to the challenges in enforcement. Therefore, a reliable method to detect safety-threatening illegal behaviors of e-scooters is essential to mitigate this growing problem. In this paper, we propose SecureRide, a system that accurately detects illegal e-scooter behaviors, i.e., speeding violation and sidewalk riding, at runtime using only battery information, without the need for additional sensors. To this end, we first design a neural network-based illegal behavior predictor that takes sequences of three battery factors, i.e., voltage, current, and capacity, as inputs. The model architecture is optimized based on time constraints, target accuracy, and resource constraints of the target devices. Next, we devise a runtime detection strategy to achieve both high accuracy and low detection time. SecureRide operates in two different modes with predictors—lightweight-quick and complex-accurate models—depending on the driving situation, ensuring both high accuracy and low detection time. We extensively validate SecureRide based on actual driving experiments. Our results show that SecureRide detects illegal behaviors with an accuracy of up to 99.77% within 1.01 seconds.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">EMSOFT</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="Ember" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Ember: Task Wakeup Sequence–Based Energy Optimization for Mobile Web Browsing</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Seonghoon Park, <em>Jiwon Kim</em>, Jeho Lee, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'Hojung Cha' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        
+
+        <!----><div class="periodical">
+          <!-- REPLACE to disappear year for inproceedings -->
+          <em>In The ACM SIGBED International Conference on Embedded Software (EMSOFT 2025)</em>
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+          
+          
+
+          </div>
+          
+          <div class="badges">
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Existing Android systems exhibit energy inefficiency during mobile web browsing due to the lack of awareness of application-level context. Inferring such context from system-level data alone is challenging, but one promising opportunity is using the sequence of task wakeup events, where one task activates another. These sequences show correlation with the type of webpage being used. In this paper, we present \textttEmber, a lightweight and responsive power management system for mobile web browsing using only task wakeup sequences. Ember introduces a neural network–based approach to predict optimal CPU clamping values by addressing three key challenges: (1) embedding task names, given as natural-language strings, into meaningful vectors using a Word2Vec-based embedding scheme tailored for task wakeup sequences; (2) minimizing inference overhead with a touch-driven hierarchical inference method that combines lightweight logistic regression with high-accuracy neural networks to balance responsiveness and efficiency; and (3) adapting to within-page interaction dynamics through an interaction-adaptive clamping mechanism that adjusts constraints across different user interaction phases. Implemented on commercial Android smartphones, Ember reduced power consumption by 6.2%–31.2% across a wide range of webpages while maintaining user-perceived quality of experience (QoE).</p>
+          </div>
+        </div>
+      </div>
+</li>
+</ol>
 
   <h2 class="year">2024</h2>
   <ol class="bibliography">
@@ -211,7 +331,7 @@
         
 
         <!----><div class="periodical">
-          <!-- REPLACE -->
+          <!-- REPLACE to disappear year for inproceedings -->
           <em>In The 30th Annual International Conference on Mobile Computing and Networking (MobiCom 2024)</em>
         </div>
         <div class="periodical">
@@ -271,7 +391,7 @@
         
 
         <!----><div class="periodical">
-          <!-- REPLACE -->
+          <!-- REPLACE to disappear year for inproceedings -->
           <em>IEEE Internet of Things Journal</em>, 2024
         </div>
         <div class="periodical">
@@ -331,7 +451,7 @@
         
 
         <!----><div class="periodical">
-          <!-- REPLACE -->
+          <!-- REPLACE to disappear year for inproceedings -->
           <em>In Proceedings of the 22nd Annual International Conference on Mobile Systems, Applications and Services (MobiSys 2024)</em>
         </div>
         <div class="periodical">
@@ -382,7 +502,7 @@
         
 
         <!----><div class="periodical">
-          <!-- REPLACE -->
+          <!-- REPLACE to disappear year for inproceedings -->
           <em>Electronics Letters</em>, 2023
         </div>
         <div class="periodical">
@@ -442,7 +562,7 @@
         
 
         <!----><div class="periodical">
-          <!-- REPLACE -->
+          <!-- REPLACE to disappear year for inproceedings -->
           <em>Pervasive and Mobile Computing (PMC)</em>, 2023
         </div>
         <div class="periodical">
@@ -506,7 +626,7 @@
         
 
         <!----><div class="periodical">
-          <!-- REPLACE -->
+          <!-- REPLACE to disappear year for inproceedings -->
           <em>In Proceedings of the 59th ACM/IEEE Design Automation Conference (DAC 2022)</em>
         </div>
         <div class="periodical">
@@ -566,7 +686,7 @@
         
 
         <!----><div class="periodical">
-          <!-- REPLACE -->
+          <!-- REPLACE to disappear year for inproceedings -->
           <em>In The ACM SIGBED International Conference on Embedded Software (EMSOFT 2022)</em>
         </div>
         <div class="periodical">
@@ -626,7 +746,7 @@
         
 
         <!----><div class="periodical">
-          <!-- REPLACE -->
+          <!-- REPLACE to disappear year for inproceedings -->
           <em>In The International Conference on Hardware/Software Codesign and System Synthesis (CODES+ISSS 2022)</em>
         </div>
         <div class="periodical">
@@ -690,7 +810,7 @@
         
 
         <!----><div class="periodical">
-          <!-- REPLACE -->
+          <!-- REPLACE to disappear year for inproceedings -->
           <em>In The ACM SIGBED International Conference on Embedded Software (EMSOFT 2020)</em>
         </div>
         <div class="periodical">
@@ -750,7 +870,7 @@
         
 
         <!----><div class="periodical">
-          <!-- REPLACE -->
+          <!-- REPLACE to disappear year for inproceedings -->
           <em>In The International Conference on Hardware/Software Codesign and System Synthesis (CODES+ISSS 2020)</em>
         </div>
         <div class="periodical">
@@ -810,7 +930,7 @@
         
 
         <!----><div class="periodical">
-          <!-- REPLACE -->
+          <!-- REPLACE to disappear year for inproceedings -->
           <em>In The ACM SIGBED International Conference on Embedded Software (EMSOFT 2020)</em>
         </div>
         <div class="periodical">
