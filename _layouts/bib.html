@@ -125,7 +125,15 @@
           {%- capture entryyear -%}{{ " " }}{{entry.year}}{%- endcapture -%}
         {%- endif -%}
         {% assign entrytype_text = entrytype | strip_html | strip %}
-        {%- capture periodical -%}{{ entrytype }}{%- if entrytype_text != "" and entryyear != "" -%}, {%- endif -%}{{ entrymonth }}{{ entryyear }}{%- endcapture -%}
+
+        <!-- {%- capture periodical -%}{{ entrytype }}{%- if entrytype_text != "" and entryyear != "" -%}, {%- endif -%}{{ entrymonth }}{{ entryyear }}{%- endcapture -%} -->
+        {%- capture periodical -%} <!-- REPLACE -->
+          {{ entrytype }}
+          {%- if entry.type != 'inproceedings' -%}
+            {%- if entrytype_text != "" and entryyear != "" -%}, {%- endif -%}{{ entrymonth }}{{ entryyear }}
+          {%- endif -%}
+        {%- endcapture -%}
+
         <div class="periodical">
           {{ periodical | strip }}
         </div>
@@ -186,7 +194,7 @@
           {%- endif %}
           
           {% if entry.award %} <!-- ADD for award -->
-            <span class="btn btn-sm z-depth-0" style="background-color: #4CAF50; color: white !important; cursor: default;">🏆 {{ entry.award }}</span>
+            <span class="btn btn-sm z-depth-0" style="background-color: #ebaf0a; color: white !important; cursor: default; padding: 0.1rem 0.5rem;">🏆 {{ entry.award }}</span>
           {% endif %}
 
           </div>
