@@ -127,7 +127,7 @@
         {% assign entrytype_text = entrytype | strip_html | strip %}
 
         <!-- {%- capture periodical -%}{{ entrytype }}{%- if entrytype_text != "" and entryyear != "" -%}, {%- endif -%}{{ entrymonth }}{{ entryyear }}{%- endcapture -%} -->
-        {%- capture periodical -%} <!-- REPLACE -->
+        {%- capture periodical -%} <!-- REPLACE to disappear year for inproceedings -->
           {{ entrytype }}
           {%- if entry.type != 'inproceedings' -%}
             {%- if entrytype_text != "" and entryyear != "" -%}, {%- endif -%}{{ entrymonth }}{{ entryyear }}

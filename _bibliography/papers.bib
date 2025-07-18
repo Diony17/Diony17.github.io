@@ -148,3 +148,23 @@
   pdf={https://mobed.yonsei.ac.kr/mobed_pages/pdf/aria-mobisys25.pdf},
   award = {Best Paper Award}
 }
+
+@inproceedings{SecureRide,
+  abbr={EMSOFT},
+  title={SecureRide: Detecting Safety-threatening Behavior of E-Scooters Using Battery Information},
+  author={Jiwon Kim* and Geon Kim* and Jeho Lee and Thiemo Voigt and Hojung Cha},
+  abstract={Reckless usage of electric (e-) scooters causes many injury accidents, raising critical safety concerns. Despite newly introduced regulations, specifically, speed limits and sidewalk driving prohibitions, the number of accidents increases due to the challenges in enforcement. Therefore, a reliable method to detect safety-threatening illegal behaviors of e-scooters is essential to mitigate this growing problem. In this paper, we propose SecureRide, a system that accurately detects illegal e-scooter behaviors, i.e., speeding violation and sidewalk riding, at runtime using only battery information, without the need for additional sensors. To this end, we first design a neural network-based illegal behavior predictor that takes sequences of three battery factors, i.e., voltage, current, and capacity, as inputs. The model architecture is optimized based on time constraints, target accuracy, and resource constraints of the target devices. Next, we devise a runtime detection strategy to achieve both high accuracy and low detection time. SecureRide operates in two different modes with predictors—lightweight-quick and complex-accurate models—depending on the driving situation, ensuring both high accuracy and low detection time. We extensively validate SecureRide based on actual driving experiments. Our results show that SecureRide detects illegal behaviors with an accuracy of up to 99.77% within 1.01 seconds.},
+  booktitle={The ACM SIGBED International Conference on Embedded Software (EMSOFT 2025)},
+  year={2025},
+  publisher={ACM}
+}
+
+@inproceedings{Ember,
+  abbr={EMSOFT},
+  title={Ember: Task Wakeup Sequence–Based Energy Optimization for Mobile Web Browsing},
+  author={Seonghoon Park and Jiwon Kim and Jeho Lee and Hojung Cha},
+  abstract={Existing Android systems exhibit energy inefficiency during mobile web browsing due to the lack of awareness of application-level context. Inferring such context from system-level data alone is challenging, but one promising opportunity is using the sequence of task wakeup events, where one task activates another. These sequences show correlation with the type of webpage being used. In this paper, we present \texttt{Ember}, a lightweight and responsive power management system for mobile web browsing using only task wakeup sequences. Ember introduces a neural network--based approach to predict optimal CPU clamping values by addressing three key challenges: (1) embedding task names, given as natural-language strings, into meaningful vectors using a Word2Vec-based embedding scheme tailored for task wakeup sequences; (2) minimizing inference overhead with a touch-driven hierarchical inference method that combines lightweight logistic regression with high-accuracy neural networks to balance responsiveness and efficiency; and (3) adapting to within-page interaction dynamics through an interaction-adaptive clamping mechanism that adjusts constraints across different user interaction phases. Implemented on commercial Android smartphones, Ember reduced power consumption by 6.2%–31.2% across a wide range of webpages while maintaining user-perceived quality of experience (QoE).},
+  booktitle={The ACM SIGBED International Conference on Embedded Software (EMSOFT 2025)},
+  year={2025},
+  publisher={ACM}
+}
