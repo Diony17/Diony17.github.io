@@ -136,17 +136,14 @@
   pdf={https://dl.acm.org/doi/abs/10.1145/3643832.3661859}
 }
 
-@inproceedings{ARIA,
-  abbr={MobiSys},
-  title={ARIA: Optimizing Vision Foundation Model Inference on Heterogeneous Mobile Processors for Augmented Reality},
-  author={Chanyoung Jung* and Jeho Lee* and Gunjoong Kim and Jiwon Kim and Seonghoon Park and Hojung Cha},
-  abstract={Mobile Augmented Reality (AR) applications demand high-quality, real-time visual prediction, including pixel-level depth and semantics, to enable immersive and context-aware user experiences. Recently, Vision Foundation Models (VFMs) offer strong generalization capabilities on diverse and unseen data, supporting scalable mobile AR experiences. However, deploying VFMs on mobile devices is challenging due to computational limitations, particularly in maintaining both prediction accuracy and real-time performance. In this paper, we present ARIA, the first system that enables on-device inference acceleration of a VFM. ARIA employs the heterogeneity of mobile processors through a parallel and selective inference scheme: full-frame prediction is periodically offloaded to a processor with high parallelism capability like GPU, while low-latency updates on dynamic regions are conducted via a specialized accelerator like NPU. Implemented and evaluated using mobile devices, ARIA achieved significant improvements in accuracy and deadline success rate on diverse real-world mobile AR scenarios.},
-  booktitle={Proceedings of the 23rd Annual International Conference on Mobile Systems, Applications and Services (MobiSys 2025)},
+@inproceedings{Ember,
+  abbr={EMSOFT},
+  title={Ember: Task Wakeup Sequence–Based Energy Optimization for Mobile Web Browsing},
+  author={Seonghoon Park and Jiwon Kim and Jeho Lee and Hojung Cha},
+  abstract={Existing Android systems exhibit energy inefficiency during mobile web browsing due to the lack of awareness of application-level context. Inferring such context from system-level data alone is challenging, but one promising opportunity is using the sequence of task wakeup events, where one task activates another. These sequences show correlation with the type of webpage being used. In this paper, we present \texttt{Ember}, a lightweight and responsive power management system for mobile web browsing using only task wakeup sequences. Ember introduces a neural network--based approach to predict optimal CPU clamping values by addressing three key challenges: (1) embedding task names, given as natural-language strings, into meaningful vectors using a Word2Vec-based embedding scheme tailored for task wakeup sequences; (2) minimizing inference overhead with a touch-driven hierarchical inference method that combines lightweight logistic regression with high-accuracy neural networks to balance responsiveness and efficiency; and (3) adapting to within-page interaction dynamics through an interaction-adaptive clamping mechanism that adjusts constraints across different user interaction phases. Implemented on commercial Android smartphones, Ember reduced power consumption by 6.2%–31.2% across a wide range of webpages while maintaining user-perceived quality of experience (QoE).},
+  booktitle={The ACM SIGBED International Conference on Embedded Software (EMSOFT 2025)},
   year={2025},
-  publisher={ACM},
-  doi={10.1145/3711875.3729161},
-  pdf={https://mobed.yonsei.ac.kr/mobed_pages/pdf/aria-mobisys25.pdf},
-  award = {Best Paper Award}
+  publisher={ACM}
 }
 
 @inproceedings{SecureRide,
@@ -159,12 +156,15 @@
   publisher={ACM}
 }
 
-@inproceedings{Ember,
-  abbr={EMSOFT},
-  title={Ember: Task Wakeup Sequence–Based Energy Optimization for Mobile Web Browsing},
-  author={Seonghoon Park and Jiwon Kim and Jeho Lee and Hojung Cha},
-  abstract={Existing Android systems exhibit energy inefficiency during mobile web browsing due to the lack of awareness of application-level context. Inferring such context from system-level data alone is challenging, but one promising opportunity is using the sequence of task wakeup events, where one task activates another. These sequences show correlation with the type of webpage being used. In this paper, we present \texttt{Ember}, a lightweight and responsive power management system for mobile web browsing using only task wakeup sequences. Ember introduces a neural network--based approach to predict optimal CPU clamping values by addressing three key challenges: (1) embedding task names, given as natural-language strings, into meaningful vectors using a Word2Vec-based embedding scheme tailored for task wakeup sequences; (2) minimizing inference overhead with a touch-driven hierarchical inference method that combines lightweight logistic regression with high-accuracy neural networks to balance responsiveness and efficiency; and (3) adapting to within-page interaction dynamics through an interaction-adaptive clamping mechanism that adjusts constraints across different user interaction phases. Implemented on commercial Android smartphones, Ember reduced power consumption by 6.2%–31.2% across a wide range of webpages while maintaining user-perceived quality of experience (QoE).},
-  booktitle={The ACM SIGBED International Conference on Embedded Software (EMSOFT 2025)},
+@inproceedings{ARIA,
+  abbr={MobiSys},
+  title={ARIA: Optimizing Vision Foundation Model Inference on Heterogeneous Mobile Processors for Augmented Reality},
+  author={Chanyoung Jung* and Jeho Lee* and Gunjoong Kim and Jiwon Kim and Seonghoon Park and Hojung Cha},
+  abstract={Mobile Augmented Reality (AR) applications demand high-quality, real-time visual prediction, including pixel-level depth and semantics, to enable immersive and context-aware user experiences. Recently, Vision Foundation Models (VFMs) offer strong generalization capabilities on diverse and unseen data, supporting scalable mobile AR experiences. However, deploying VFMs on mobile devices is challenging due to computational limitations, particularly in maintaining both prediction accuracy and real-time performance. In this paper, we present ARIA, the first system that enables on-device inference acceleration of a VFM. ARIA employs the heterogeneity of mobile processors through a parallel and selective inference scheme: full-frame prediction is periodically offloaded to a processor with high parallelism capability like GPU, while low-latency updates on dynamic regions are conducted via a specialized accelerator like NPU. Implemented and evaluated using mobile devices, ARIA achieved significant improvements in accuracy and deadline success rate on diverse real-world mobile AR scenarios.},
+  booktitle={Proceedings of the 23rd Annual International Conference on Mobile Systems, Applications and Services (MobiSys 2025)},
   year={2025},
-  publisher={ACM}
+  publisher={ACM},
+  doi={10.1145/3711875.3729161},
+  pdf={https://mobed.yonsei.ac.kr/mobed_pages/pdf/aria-mobisys25.pdf},
+  award = {Best Paper Award}
 }
