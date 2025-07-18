@@ -184,6 +184,11 @@
           {%- if entry.website %}
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
           {%- endif %}
+          
+          {% if entry.award %} <!-- ADD for award -->
+            <span class="btn btn-sm z-depth-0" style="background-color: #4CAF50; color: white !important; cursor: default;">🏆 {{ entry.award }}</span>
+          {% endif %}
+
           </div>
           {% if site.badges %}
           <div class="badges">
