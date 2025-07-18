@@ -67,7 +67,7 @@
 @article{PVoT,
   abbr={CODES+ISSS},
   title={PVoT: Reconfigurable Photovoltaic Array for Indoor Light Energy-Powered Batteryless Devices},
-  author={Jiwon Kim\* and Eunyeong Kim\* and Seunghyeok Jeon and Junick Ahn and Hyungchol Jun and Hojung Cha},
+  author={Jiwon Kim* and Eunyeong Kim* and Seunghyeok Jeon and Junick Ahn and Hyungchol Jun and Hojung Cha},
   abstract={Multiple photovoltaic (PV) modules are often used to provide enhanced harvesting capability for light energy-based Internet of Things (IoT) devices. PV modules facing multiple directions can lead to a situational energy loss when parts of the modules are shaded. To address this issue, existing solutions exploit reconfigurable PV arrays to acquire the optimal configuration in a given situation. However, conventional techniques are not energy efficient in estimating the harvesting capability of PV modules, and require high computation to find the optimal PV array at runtime. In this article, we propose PVoT, an energy-efficient reconfigurable PV array, which maximizes the harvesting energy for indoor IoT devices. To this end, we propose the use of photoresistors to estimate the harvesting capability with minimal energy overhead. We also provide hardware and software schemes, which perform event-driven light change detection in an energy-efficient way. Furthermore, we develop a power imbalance threshold metric to quickly find the optimal PV array at runtime. We implemented a prototype PVoT with off-the-shelf components and accompanying software. Experiments with the prototype hardware showed that PVoT achieves a gain of up to 23.9% in harvested energy compared to the existing directly connected PV array scheme.},
   journal={The International Conference on Hardware/Software Codesign and System Synthesis (CODES+ISSS 2022)},
   year={2022},
@@ -136,12 +136,12 @@
   pdf={https://dl.acm.org/doi/abs/10.1145/3643832.3661859}
 }
 
-@article{ARIA,
+@inproceedings{ARIA,
   abbr={MobiSys},
   title={ARIA: Optimizing Vision Foundation Model Inference on Heterogeneous Mobile Processors for Augmented Reality},
-  author={Chanyoung Jung\* and Jeho Lee\* and Gunjoong Kim and Jiwon Kim and Seonghoon Park and Hojung Cha},
+  author={Chanyoung Jung* and Jeho Lee* and Gunjoong Kim and Jiwon Kim and Seonghoon Park and Hojung Cha},
   abstract={Mobile Augmented Reality (AR) applications demand high-quality, real-time visual prediction, including pixel-level depth and semantics, to enable immersive and context-aware user experiences. Recently, Vision Foundation Models (VFMs) offer strong generalization capabilities on diverse and unseen data, supporting scalable mobile AR experiences. However, deploying VFMs on mobile devices is challenging due to computational limitations, particularly in maintaining both prediction accuracy and real-time performance. In this paper, we present ARIA, the first system that enables on-device inference acceleration of a VFM. ARIA employs the heterogeneity of mobile processors through a parallel and selective inference scheme: full-frame prediction is periodically offloaded to a processor with high parallelism capability like GPU, while low-latency updates on dynamic regions are conducted via a specialized accelerator like NPU. Implemented and evaluated using mobile devices, ARIA achieved significant improvements in accuracy and deadline success rate on diverse real-world mobile AR scenarios.},
-  journal={In Proceedings of the 23rd Annual International Conference on Mobile Systems, Applications and Services (MobiSys 2025)},
+  booktitle={In Proceedings of the 23rd Annual International Conference on Mobile Systems, Applications and Services (MobiSys 2025)},
   year={2025},
   publisher={ACM},
   doi={10.1145/3711875.3729161},
