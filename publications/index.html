@@ -116,6 +116,66 @@
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">MobiCom</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="EOS" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">EOS: Energy-Optimized Super-Resolution on Mobile Devices for Live 360-Degree Videos</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Seonghoon Park, Minchan Kim, Hyejin Park, and
+          <span class="more-authors" title="click to view 2 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '2 more authors' ? 'Jeho Lee, Hojung Cha Jiwon Kim' : '2 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">2 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        
+
+        <!----><div class="periodical">
+          <!-- REPLACE to disappear year for inproceedings -->
+          <em>In The 31st Annual International Conference on Mobile Computing and Networking (MobiCom 2025)</em>
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="/assets/pdf/" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          
+          
+
+          </div>
+          
+          <div class="badges">
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>While on-device video super-resolution enables high-quality live 360-degree videos on mobile devices, current methods consume unnecessary energy by not considering perceived visual quality. In this paper, we present EOS, an energyefficient on-device video super-resolution system for mobile omnidirectional video (ODV) live streaming. EOS addresses two key challenges. The first challenge is designing an adaptive inference policy that maximizes energy efficiency while minimizing degradation in frame rates and visual quality. The second challenge is predicting the visual quality of super-resolved videos across the numerous viewpoints of ODVs in real time, without relying on high-resolution reference videos. For adaptive inference, EOS introduces EOS SR, which consists of a device-agnostic and scalable deep neural network optimized for mobile devices and a scheduler that selects the optimal super-resolution model and GPU frequency to minimize energy consumption while achieving the target Quality-of-Experience (QoE). For runtime visual quality prediction, EOS features No-Reference Upscaling Quality Prediction that estimates the visual quality of super-resolved videos across various viewpoints at once, using a deep neural network that takes an entire low-resolution ODV frame as input. Our experiments on commodity smartphones show that EOS reduces average power consumption by 34.59% to 49.94% compared to baseline methods, while maintaining high visual quality and frame rates.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
         <div class="col-sm-2 abbr"><abbr class="badge">EMSOFT</abbr></div>
 
         <!-- Entry bib key -->
