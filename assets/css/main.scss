@@ -13,3 +13,9 @@ $max-content-width: {{ site.max_width }};
   "base",
   "distill"
 ;
+
+.about img.img-fluid[src*="prof_pic"] {
+  width: 224px !important;   /* 원하는 폭으로: 224~288 권장 */
+  height: auto !important;
+  max-width: 100%;            /* 좁은 화면에서 더 줄어들 수 있게 */
+}
