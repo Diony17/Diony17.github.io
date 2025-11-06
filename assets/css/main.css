@@ -212,7 +212,7 @@ blockquote {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    max-width: 250px;
   }
   .profile .address p {
     display: block;
@@ -891,12 +891,6 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
   d-article d-contents nav {
     grid-column: none;
   }
-}
-.layout--about div.profile {
-  max-width: 250px;
-  float: none !important;
-  margin-left: auto !important;
-  margin-right: 0 !important;
 }
 
 /*# sourceMappingURL=main.css.map */
