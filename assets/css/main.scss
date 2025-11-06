@@ -13,3 +13,8 @@ $max-content-width: {{ site.max_width }};
   "base",
   "distill"
 ;
+
+.about .profile img {
+  max-width: 420px;
+  height: auto;
+}
