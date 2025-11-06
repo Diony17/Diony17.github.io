@@ -892,8 +892,11 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
     grid-column: none;
   }
 }
-.profile {
+.layout--about div.profile {
   max-width: 250px;
+  float: none !important;
+  margin-left: auto !important;
+  margin-right: 0 !important;
 }
 
 /*# sourceMappingURL=main.css.map */
