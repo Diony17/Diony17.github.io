@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*******************************************************************************
  * Variables used throughout the theme.
  * To adjust anything, simply edit the variables below and rebuild the theme.
@@ -891,6 +892,11 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
   d-article d-contents nav {
     grid-column: none;
   }
+}
+.about img.img-fluid[src*=prof_pic] {
+  width: 224px !important; /* 원하는 폭으로: 224~288 권장 */
+  height: auto !important;
+  max-width: 100%; /* 좁은 화면에서 더 줄어들 수 있게 */
 }
 
 /*# sourceMappingURL=main.css.map */
