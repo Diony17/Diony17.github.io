@@ -22,7 +22,7 @@ This is Jiwon Kim, and I'm excited to welcome you to my website :smile:
 I received my Ph.D. in Computer Science from Yonsei University in February 2024 ([Mobile Embedded Systems Lab.](https://mobed.yonsei.ac.kr) supervised by Prof. Hojung Cha).
 Currently, I am a member of the [Networked Embedded Systems Lab.](https://www.uu.se/en/contact-and-organisation/organisation?query=X264%3A5) at Uppsala University, supervised by Prof. Thiemo Voigt.
 
-My research interests focus on battery management systems, on-device machine learning, and energy-aware mobile systems. I'm proud to have published my work in top-tier conferences, such as EMSOFT, CODES+ISSS, and DAC.
+My research interests focus on on-device AI, and energy-aware mobile systems, and battery management systems. I'm proud to have published my work in top-tier conferences, such as MobiSys, MobiCom, and EMSOFT.
 
 Please feel free to reach out to me at [jiwon.kim@angstrom.uu.se](mailto:jiwon.kim@angstrom.uu.se) if you have any questions or would like to connect.
 
