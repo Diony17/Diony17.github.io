@@ -17,7 +17,7 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 Greetings!  
-This is Jiwon Kim, and I'm excited to welcome you to my website :smile:  
+This is Jiwon Kim, and I'm excited to welcome you to my website!  
 I am an Assistant Professor in the Department of Artificial Intelligence  
 at Ewha Womans University, starting March 2026.
 
