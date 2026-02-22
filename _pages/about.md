@@ -27,9 +27,9 @@ My research interests focus on **on-device AI, energy-aware mobile systems, and 
 
 If you have any questions or would like to connect, please feel free to reach out to me.
 
-### **[Recruitment]**
+**[Recruitment]**
 The Mobile Embedded AI System (MES) Lab will be launching soon. I am actively looking for highly motivated Ph.D. and M.S. students.  
 Please contact me if you are interested in joining the lab.
 
-### **[Contact]**
-> **Email:** [jiwon_kim@ewha.ac.kr](mailto:jiwon_kim@ewha.ac.kr)
+**[Contact]**
+**Email:** [jiwon_kim@ewha.ac.kr](mailto:jiwon_kim@ewha.ac.kr)
