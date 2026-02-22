@@ -18,12 +18,12 @@ social: false  # includes social icons at the bottom of the page
 
 Greetings!  
 This is Jiwon Kim, and I'm excited to welcome you to my website :smile:
+I am an Assistant Professor in the Department of Artificial Intelligence at Ewha Womans University, starting March 2026.
 
-I received my Ph.D. in Computer Science from Yonsei University in February 2024 ([Mobile Embedded Systems Lab.](https://mobed.yonsei.ac.kr) supervised by Prof. Hojung Cha).
-Currently, I am a member of the [Networked Embedded Systems Lab.](https://www.uu.se/en/contact-and-organisation/organisation?query=X264%3A5) at Uppsala University, supervised by Prof. Thiemo Voigt.
+I received my B.S. in Electronic Engineering from Ewha Womans University and my Ph.D. in Computer Science from Yonsei University in February 2024 ([Mobile Embedded Systems Lab.](https://mobed.yonsei.ac.kr) supervised by Prof. Hojung Cha). Prior to joining Ewha, I was a postdoctoral researcher at the [Networked Embedded Systems Lab.](https://www.uu.se/en/contact-and-organisation/organisation?query=X264%3A5) at Uppsala University, supervised by Prof. Thiemo Voigt.
 
-My research interests focus on on-device AI, and energy-aware mobile systems, and battery management systems. I'm proud to have published my work in top-tier conferences, such as MobiSys, MobiCom, and EMSOFT.
+My research interests focus on on-device AI, energy-aware mobile systems, and battery management systems—spanning a broad spectrum of mobile edge research from energy storage and hardware up to the application layer.
 
-Please feel free to reach out to me at [jiwon.kim@angstrom.uu.se](mailto:jiwon.kim@angstrom.uu.se) if you have any questions or would like to connect.
+The Mobile Embedded AI System (MES) Lab will be launching soon. I am actively looking for highly motivated Ph.D. and M.S. students. If you are interested in joining the lab or have any questions, please feel free to contact me at [jiwon_kim@ewha.ac.kr](mailto:jiwon_kim@ewha.ac.kr).
 
 Thank you!
