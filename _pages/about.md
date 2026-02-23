@@ -20,7 +20,7 @@ Greetings!
 This is **Jiwon Kim**, and I'm excited to welcome you to my website!  
 I am an Assistant Professor in the Department of Artificial Intelligence at Ewha Womans University, starting March 2026.
 
-I received my B.S. in Electronic Engineering from Ewha Womans University and my Ph.D. in Computer Science from Yonsei University in February 2024 ([Mobile Embedded Systems Lab.](https://mobed.yonsei.ac.kr) supervised by Prof. Hojung Cha). Prior to joining Ewha, I was a postdoctoral researcher at the [Networked Embedded Systems Lab.](https://www.uu.se/en/contact-and-organisation/organisation?query=X264%3A5) at Uppsala University, supervised by Prof. Thiemo Voigt.
+I received my B.S. in Electronic Engineering from Ewha Womans University and my Ph.D. in Computer Science from Yonsei University ([Mobile Embedded Systems Lab.](https://mobed.yonsei.ac.kr) supervised by Prof. Hojung Cha). Prior to joining Ewha, I was a postdoctoral researcher at the [Networked Embedded Systems Lab.](https://www.uu.se/en/contact-and-organisation/organisation?query=X264%3A5) at Uppsala University, supervised by Prof. Thiemo Voigt.
 
 My research interests focus on **on-device AI, energy-aware mobile systems, and battery management systems**—spanning a broad spectrum of mobile edge research from energy storage and hardware up to the application layer.
 
