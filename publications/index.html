@@ -111,6 +111,137 @@
           <article>
             <!-- _pages/publications.md -->
 <div class="publications">
+  <h2 class="year">2026</h2>
+  <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr">
+<!-- <abbr class="badge" style="background-color:#00369f"><a href="">GetMobile</a></abbr> -->
+            <abbr class="badge" style="background-color:#00369f">GetMobile</abbr>
+</div>
+
+        <!-- Entry bib key -->
+        <div id="ARIB" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">VFM in Your Hands: Optimizing Real-Time Scene Understanding for Mobile Augmented Reality</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Jeho Lee*, Chanyoung Jung*, Gunjoong Kim, and
+          <span class="more-authors" title="click to view 3 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '3 more authors' ? 'Jiwon Kim, Seonghoon Park, Hojung Cha' : '3 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">3 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        
+
+        <!----><div class="periodical">
+          <!-- REPLACE to disappear year for inproceedings -->
+          <em>In GetMobile: Mobile Computing and Communications</em>
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://dl.acm.org/doi/abs/10.1145/3793236.3793246" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+          
+          
+           <!-- ADD for research highlight -->
+            <span class="btn btn-sm z-depth-0" style="background-color: #00369f; color: white !important; cursor: default; padding: 0.1rem 0.5rem;">🔍 Research Highlight</span>
+          
+
+          </div>
+          
+          <div class="badges">
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Mobile Augmented Reality (AR) applications demand high-quality, real-time visual prediction, including pixel-level depth and semantics, to enable immersive and context-aware user experiences. Recently, Vision Foundation Models (VFMs) have offered strong generalization capabilities on diverse and unseen data, supporting scalable mobile AR experiences. However, deploying VFMs on mobile devices is challenging due to computational limitations, particularly in maintaining both prediction accuracy and real-time performance. In this article, we present ARIA [3], the first system that enables on-device inference acceleration of a VFM. ARIA employs the heterogeneity of mobile processors through a parallel and selective inference scheme: full-frame prediction is periodically offloaded to a processor with high parallelism capability like GPU, while lowlatency updates on dynamic regions are conducted via a specialized accelerator like NPU. Implemented and evaluated using mobile devices, ARIA achieved significant improvements in accuracy and deadline success rate on real-world mobile AR scenarios.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">TECS</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="Phoenix" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Phoenix: Thermal-Aware On-Device Inference of Multi-Instance DNNs for Mobile Video Applications</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Seunghyeok Jeon, <em>Jiwon Kim</em>, Jeho Lee, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'Hojung Cha' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        
+
+        <!----><div class="periodical">
+          <!-- REPLACE to disappear year for inproceedings -->
+          <em>In ACM Transactions on Embedded Computing Systems (TECS)</em>
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://dl.acm.org/doi/full/10.1145/3793860" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+          
+          
+          
+
+          </div>
+          
+          <div class="badges">
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Running multiple deep neural networks (DNNs) simultaneously on mobile devices introduces challenges due to constrained computing resources. Previous research has explored the use of heterogeneous processors for accelerating DNN inference but often overlooks thermal issues, which can degrade computing power. In this article, we propose Phoenix, a system specifically designed to enhance the performance of multi-instance DNNs in video applications by maximizing accuracy and ensuring the achievement of a required frame rate. Phoenix allocates DNN tasks to the most suitable hardware processors, understanding complex thermal dynamics through reinforcement learning, and postpones the onset of thermal throttling. Despite optimized task allocation, continuous inference of multiple DNNs can still lead to thermal throttling. To manage performance degradation, Phoenix employs a multi-exit network, adaptively executing inference tasks to ensure consistent frame rates. Phoenix minimizes accuracy loss from early exits by optimally generating and operating multi-exit networks. We evaluated Phoenix using two different benchmarks and Virtual Youtuber streaming application. The results demonstrated that Phoenix effectively enhances device performance by delaying thermal throttling and achieving optimal accuracy while maintaining a consistent frame rate.</p>
+          </div>
+        </div>
+      </div>
+</li>
+</ol>
+
   <h2 class="year">2025</h2>
   <ol class="bibliography">
 <li>
