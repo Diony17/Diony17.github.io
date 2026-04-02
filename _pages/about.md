@@ -22,12 +22,12 @@ I am an Assistant Professor in the Department of Artificial Intelligence at Ewha
 
 I received my B.S. in Electronic Engineering from Ewha Womans University and my Ph.D. in Computer Science from Yonsei University ([Mobile Embedded Systems Lab](https://mobed.yonsei.ac.kr) supervised by Prof. Hojung Cha). Prior to joining Ewha, I was a postdoctoral researcher at Uppsala University ([Networked Embedded Systems Lab](https://www.uu.se/en/contact-and-organisation/organisation?query=X264%3A5) supervised by Prof. Thiemo Voigt).
 
-My research interests focus on **on-device AI, energy-aware mobile systems, and battery management systems**—spanning a broad spectrum of mobile edge research from energy storage and hardware up to the application layer.
+My research interests focus on **on-device AI, energy-aware mobile systems, and intelligent energy storage systems**—spanning a broad spectrum of mobile edge research from energy storage and hardware up to the application layer.
 
 If you have any questions or would like to connect, please feel free to reach out to me.
 
 **[Recruitment]**
-The Mobile Embedded AI Systems (MES) Lab will be launching soon. I am actively looking for highly motivated Ph.D. and M.S. students. Please contact me if you are interested in joining the lab.
+I am leading [Mobile Embedded AI Systems (MES) Lab](https://mes.ewha.ac.kr). I am actively looking for highly motivated Ph.D. and M.S. students. Please contact me if you are interested in joining the lab.
 
 **[Contact]**
 **Email:** [jiwon_kim@ewha.ac.kr](mailto:jiwon_kim@ewha.ac.kr)

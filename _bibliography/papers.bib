@@ -181,6 +181,31 @@
   year={2025},
   publisher={ACM},
   doi={10.1145/3711875.3729161},
-  pdf={https://mobed.yonsei.ac.kr/mobed_pages/pdf/aria-mobisys25.pdf},
+  pdf={https://dl.acm.org/doi/10.1145/3711875.3729161},
   award = {Best Paper Award}
+}
+
+@inproceedings{ARIA,
+  abbr={GetMobile},
+  highlight={Research Highlight},
+  title={VFM in Your Hands: Optimizing Real-Time Scene Understanding for Mobile Augmented Reality},
+  author={Jeho Lee* and Chanyoung Jung* and Gunjoong Kim and Jiwon Kim and Seonghoon Park and Hojung Cha},
+  abstract={Mobile Augmented Reality (AR) applications demand high-quality, real-time visual prediction, including pixel-level depth and semantics, to enable immersive and context-aware user experiences. Recently, Vision Foundation Models (VFMs) have offered strong generalization capabilities on diverse and unseen data, supporting scalable mobile AR experiences. However, deploying VFMs on mobile devices is challenging due to computational limitations, particularly in maintaining both prediction accuracy and real-time performance. In this article, we present ARIA [3], the first system that enables on-device inference acceleration of a VFM. ARIA employs the heterogeneity of mobile processors through a parallel and selective inference scheme: full-frame prediction is periodically offloaded to a processor with high parallelism capability like GPU, while lowlatency updates on dynamic regions are conducted via a specialized accelerator like NPU. Implemented and evaluated using mobile devices, ARIA achieved significant improvements in accuracy and deadline success rate on real-world mobile AR scenarios.},
+  booktitle={GetMobile: Mobile Computing and Communications},
+  year={2026},
+  publisher={ACM},
+  doi={10.1145/3793236.3793246},
+  pdf={https://dl.acm.org/doi/abs/10.1145/3793236.3793246}
+}
+
+@inproceedings{Phoenix,
+  abbr={TECS},
+  title={Phoenix: Thermal-Aware On-Device Inference of Multi-Instance DNNs for Mobile Video Applications},
+  author={Seunghyeok Jeon and Jiwon Kim and Jeho Lee and Hojung Cha},
+  abstract={Running multiple deep neural networks (DNNs) simultaneously on mobile devices introduces challenges due to constrained computing resources. Previous research has explored the use of heterogeneous processors for accelerating DNN inference but often overlooks thermal issues, which can degrade computing power. In this article, we propose Phoenix, a system specifically designed to enhance the performance of multi-instance DNNs in video applications by maximizing accuracy and ensuring the achievement of a required frame rate. Phoenix allocates DNN tasks to the most suitable hardware processors, understanding complex thermal dynamics through reinforcement learning, and postpones the onset of thermal throttling. Despite optimized task allocation, continuous inference of multiple DNNs can still lead to thermal throttling. To manage performance degradation, Phoenix employs a multi-exit network, adaptively executing inference tasks to ensure consistent frame rates. Phoenix minimizes accuracy loss from early exits by optimally generating and operating multi-exit networks. We evaluated Phoenix using two different benchmarks and Virtual Youtuber streaming application. The results demonstrated that Phoenix effectively enhances device performance by delaying thermal throttling and achieving optimal accuracy while maintaining a consistent frame rate.},
+  booktitle={ACM Transactions on Embedded Computing Systems (TECS)},
+  year={2026},
+  publisher={ACM},
+  doi={10.1145/3793860},
+  pdf={https://dl.acm.org/doi/full/10.1145/3793860}
 }

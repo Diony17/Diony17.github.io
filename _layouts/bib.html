@@ -19,7 +19,8 @@
             {%- if site.data.venues[entry.abbr].color != blank -%}
               {%- assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' -%}
             {%- endif -%}
-            <abbr class="badge" {% if venue_style %}{{venue_style}}{% endif %}><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr>
+            <!-- <abbr class="badge" {% if venue_style %}{{venue_style}}{% endif %}><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr> -->
+            <abbr class="badge" {% if venue_style %}{{venue_style}}{% endif %}>{{entry.abbr}}</abbr>
           {%- else -%}
             <abbr class="badge">{{entry.abbr}}</abbr>
           {%- endif -%}
@@ -195,6 +196,9 @@
           
           {% if entry.award %} <!-- ADD for award -->
             <span class="btn btn-sm z-depth-0" style="background-color: #ebaf0a; color: white !important; cursor: default; padding: 0.1rem 0.5rem;">🏆 {{ entry.award }}</span>
+          {% endif %}
+          {% if entry.highlight %} <!-- ADD for research highlight -->
+            <span class="btn btn-sm z-depth-0" style="background-color: #00369f; color: white !important; cursor: default; padding: 0.1rem 0.5rem;">🔍 {{ entry.highlight }}</span>
           {% endif %}
 
           </div>
