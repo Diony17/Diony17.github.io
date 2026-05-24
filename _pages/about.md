@@ -18,7 +18,7 @@ social: false  # includes social icons at the bottom of the page
 
 Greetings!  
 This is **Jiwon Kim**, and I'm excited to welcome you to my website!  
-I am an Assistant Professor in the Department of Artificial Intelligence at Ewha Womans University, starting March 2026.
+I am an Assistant Professor in the Department of Artificial Intelligence at Ewha Womans University, since March 2026.
 
 I received my B.S. in Electronic Engineering from Ewha Womans University and my Ph.D. in Computer Science from Yonsei University ([Mobile Embedded Systems Lab](https://mobed.yonsei.ac.kr) supervised by Prof. Hojung Cha). Prior to joining Ewha, I was a postdoctoral researcher at Uppsala University ([Networked Embedded Systems Lab](https://www.uu.se/en/contact-and-organisation/organisation?query=X264%3A5) supervised by Prof. Thiemo Voigt).
 
